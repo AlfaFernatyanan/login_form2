@@ -4,8 +4,12 @@ function login() {
   var password = datalogin[1]["value"];
 
   if (username != "alfa") {
+    console.log("Login Gagal, Username Salah");
   } else if (password != "kiki") {
+    console.log("Login Gagal, Password Salah");
   } else {
+    console.log("Login Sukses");
+    window.location.href = "karyawan.html";
   }
 }
 function register() {

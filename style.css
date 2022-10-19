@@ -167,3 +167,41 @@ body {
     bottom: 100%;
   }
 }
+.Karyawan_kontener {
+  background-color: aqua;
+  padding: 20px;
+  margin: 20px;
+  display: inline-flex;
+  background: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+.Karyawan_kontener img {
+  border-radius: 100px;
+  margin-right: 10px;
+}
+h1 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+.Karyawan_kontener h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  /* text-align: start; */
+}
+.Karyawan_kontener h3 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+.Karyawan_kontener div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5px;
+}
