@@ -53,7 +53,7 @@ async function generateListKaryawan() {
     } else {
       gender = "Laki - Laki";
     }
-    var strHtml = `<div class="Karyawan_kontener"><img src="${picture}" /><div>  <h2>${firstName} ${lastname}</h2>   <h3>${gender}</h3></div></div>`;
+    var strHtml = `<div class="Karyawan_kontener"><img src="${picture}" /><div>  <h2 style="margin:5px;">${firstName} ${lastname}</h2>   <h3 style="margin:5px;">${gender}</h3></div></div>`;
     console.log(picture);
     listStrHtml += strHtml;
   }
